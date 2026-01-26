@@ -1,0 +1,38 @@
+@using Shared
+@page "/fetchproducts"
+@inject ProductService ProductService
+
+<h3>Product List</h3>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <p style="color:red">@errorMessage</p>
+}
+
+@if (products == null && string.IsNullOrEmpty(errorMessage))
+{
+    <p>Loading...</p>
+}
+else if (products != null)
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - $@product.Price</li>
+        }
+        <li>Total Products: @products.Count</li>
+    </ul>
+}
+
+@code {
+    private List<Product>? products;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await ProductService.GetProductsAsync();
+
+        products = result.Data;
+        errorMessage = result.Error;
+    }
+}

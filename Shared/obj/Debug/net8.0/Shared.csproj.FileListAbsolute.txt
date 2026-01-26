@@ -1,0 +1,11 @@
+D:\repo\AriaOfCode\full-stack-integration\Shared\bin\Debug\net8.0\Shared.deps.json
+D:\repo\AriaOfCode\full-stack-integration\Shared\bin\Debug\net8.0\Shared.dll
+D:\repo\AriaOfCode\full-stack-integration\Shared\bin\Debug\net8.0\Shared.pdb
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.dll
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\refint\Shared.dll
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\Shared.pdb
+D:\repo\AriaOfCode\full-stack-integration\Shared\obj\Debug\net8.0\ref\Shared.dll
